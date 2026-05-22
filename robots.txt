@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /app.js
+
+Sitemap: https://metalthec.com.br/sitemap.xml
