@@ -7,7 +7,7 @@ João Monlevade · Vale do Aço · MG.
 
 | Arquivo | Descrição |
 |---------|-----------|
-| `Metalthec.html` | Página principal (one-page institucional) |
+| `index.html` | Página principal (one-page institucional) |
 | `blog.html` | Índice do blog técnico |
 | `blog-*.html` | Artigos do blog |
 | `styles.css` | Estilos do site |
@@ -21,5 +21,5 @@ João Monlevade · Vale do Aço · MG.
 HTML + CSS + JavaScript puro, sem etapa de build. Servir como **site estático**
 (GitHub Pages, Cloudflare Pages ou qualquer servidor de arquivos).
 
-> Entrada principal: `Metalthec.html`. Para hospedagem que espera `index.html`,
-> renomear/duplicar a página principal ou configurar o entrypoint do provedor.
+> Entrada principal: `index.html` — funciona direto na raiz em GitHub Pages,
+> Cloudflare Pages ou qualquer servidor estático, sem configuração extra.
