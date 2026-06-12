@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `📱 *Telefone:* ${telefone}`,
         `⚙️ *Serviço:* ${servico}`,
         '',
-        '_Enviado via metalthec.com.br_'
+        '_Enviado pelo site da METALTHEC_'
       ].join('\n');
 
       const waUrl = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
