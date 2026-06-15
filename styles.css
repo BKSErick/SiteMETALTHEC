@@ -245,7 +245,7 @@ h1, h2, h3, h4 {
   display: flex; align-items: center; gap: 12px;
 }
 .brand__mark {
-  width: 36px; height: 36px;
+  width: auto; height: 40px; min-width: 36px;
   display: grid; place-items: center;
 }
 .brand__name {
@@ -1463,8 +1463,9 @@ h1, h2, h3, h4 {
 
 /* ---------- Brand logo img ---------- */
 .brand__logo {
-  height: 36px;
+  height: 40px;
   width: auto;
+  max-width: 200px;
   object-fit: contain;
   filter: brightness(0) invert(1); /* white version for dark bg */
 }
